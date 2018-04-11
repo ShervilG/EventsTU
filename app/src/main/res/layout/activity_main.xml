@@ -16,6 +16,7 @@
         android:text="USER"
         android:textSize="20dp"
         android:id="@+id/buser"
+        android:background="@android:color/holo_blue_dark"
         />
     <Button
         android:layout_marginVertical="370dp"
@@ -24,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="SOCIETY MEMBER"
         android:textSize="20dp"
-        android:id="@+id/bsoc" />
+        android:id="@+id/bsoc"
+        android:background="@android:color/holo_blue_dark"/>
 
 </android.widget.RelativeLayout>
