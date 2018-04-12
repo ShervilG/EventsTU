@@ -9,6 +9,8 @@
     tools:context=".MainActivity">
 
     <android.support.v7.widget.CardView
+        android:visibility="invisible"
+        android:clickable="false"
         android:id="@+id/but2"
         android:layout_width="300dp"
         android:layout_height="50dp"
@@ -27,8 +29,19 @@
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textSize="24sp" />
+
+
     </android.support.v7.widget.CardView>
 
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/but2"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Password !"
+        android:drawableLeft="@drawable/lockIcon"
+        android:textSize="24sp"/>
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -40,6 +53,8 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/but1"
+        android:visibility="invisible"
+        android:clickable="false"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -60,5 +75,15 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textSize="24sp" />
     </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/but1"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Username !"
+        android:drawableLeft="@drawable/userIcon"
+        android:textSize="24sp" />
 
 </android.widget.RelativeLayout>
