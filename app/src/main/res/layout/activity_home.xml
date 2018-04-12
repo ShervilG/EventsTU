@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttongradient"
+    tools:context=".Home">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Home">
+
+        <item
+            android:id="@+id/navigation_Your_Passes"
+            android:icon="@drawable/ic_Your_Passes_black_24dp"
+            android:title="@string/title_Your_Passes"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/navigation_Help"
+            android:icon="@drawable/ic_Help_black_24dp"
+            android:title="@string/title_Help" />
+
+        <item
+            android:id="@+id/navigation_Logout"
+            android:icon="@drawable/ic_Logout_black_24dp"
+            android:title="@string/title_Logout" />
+
+    </menu>
+
+</android.widget.RelativeLayout>
