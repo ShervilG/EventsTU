@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     private static final int MENU_ITEM_LOGOUT = 1001;
     private CoordinatorLayout coordinatorLayout;
