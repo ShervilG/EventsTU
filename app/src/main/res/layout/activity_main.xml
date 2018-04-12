@@ -82,7 +82,7 @@
         android:layout_height="52dp"
         android:layout_alignTop="@+id/but1"
         android:layout_centerHorizontal="true"
-        android:hint="Enter Username !"
+        android:hint="Enter Username !!"
         android:drawableLeft="@drawable/userIcon"
         android:textSize="24sp" />
 
