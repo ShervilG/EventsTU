@@ -1,6 +1,7 @@
 package com.draconem.eventstu;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -29,5 +30,15 @@ TextView t1;
                     popupWindow.showAsDropDown(ddown1, 50, 0);
             }
         });
+    }
+
+    public void sot(View view) {
+        Intent in2 = new Intent(Main2Activity.this,MainActivity.class);
+        this.finish();
+        startActivity(in2);
+    }
+
+    public void ex(View view) {
+        System.exit(0);
     }
 }

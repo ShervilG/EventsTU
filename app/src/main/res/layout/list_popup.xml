@@ -10,7 +10,7 @@
     <TextView
         android:layout_height="50dp"
         android:layout_width="match_parent"
-        android:text="text"
+        android:text="Help"
         android:textSize="18dp"
         android:textColor="#FFFFFF"
         android:gravity="center"
@@ -23,21 +23,8 @@
     <TextView
         android:layout_height="50dp"
         android:layout_width="match_parent"
-        android:text="text1"
-        android:textSize="18dp"
-        android:textColor="#FFFFFF"
-        android:gravity="center"
-        />
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#999999"
-        />
-
-    <TextView
-        android:layout_height="50dp"
-        android:layout_width="match_parent"
-        android:text="text2"
+        android:text="Sign-Out"
+        android:onClick="sot"
         android:textSize="18dp"
         android:textColor="#FFFFFF"
         android:gravity="center"
@@ -51,7 +38,8 @@
     <TextView
         android:layout_height="50dp"
         android:layout_width="match_parent"
-        android:text="text3"
+        android:text="Exit"
+        android:onClick="ex"
         android:textSize="18dp"
         android:textColor="#FFFFFF"
         android:gravity="center"
