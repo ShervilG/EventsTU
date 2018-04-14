@@ -8,27 +8,12 @@
     >
 
     <TextView
-        android:layout_height="50dp"
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:text="Help"
-        android:textSize="18dp"
         android:textColor="#FFFFFF"
-        android:gravity="center"
-        />
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#999999"
-        />
-    <TextView
-        android:layout_height="50dp"
-        android:layout_width="match_parent"
-        android:text="Sign-Out"
-        android:onClick="sot"
-        android:textSize="18dp"
-        android:textColor="#FFFFFF"
-        android:gravity="center"
-        />
+        android:textSize="18dp" />
     <View
         android:layout_width="fill_parent"
         android:layout_height="1dp"
@@ -36,14 +21,27 @@
         />
 
     <TextView
-        android:layout_height="50dp"
         android:layout_width="match_parent"
-        android:text="Exit"
-        android:onClick="ex"
-        android:textSize="18dp"
-        android:textColor="#FFFFFF"
+        android:layout_height="50dp"
         android:gravity="center"
+        android:onClick="sot"
+        android:text="Sign-Out"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#999999"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="ex"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
     <View
         android:layout_width="fill_parent"
         android:layout_height="1dp"

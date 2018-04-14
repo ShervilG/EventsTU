@@ -19,7 +19,7 @@ TextView t1;
         setContentView(R.layout.activity_main2);
         LayoutInflater layoutInflater= (LayoutInflater)getBaseContext().getSystemService(LAYOUT_INFLATER_SERVICE);
         final View popupView = layoutInflater.inflate(R.layout.list_popup, null);
-        final PopupWindow popupWindow = new PopupWindow(popupView,200, ActionBar.LayoutParams.WRAP_CONTENT);
+        final PopupWindow popupWindow = new PopupWindow(popupView,280, ActionBar.LayoutParams.WRAP_CONTENT);
         ddown1 = this.findViewById(R.id.dddown);
         ddown1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,7 +27,7 @@ TextView t1;
                 if(popupWindow.isShowing())
                     popupWindow.dismiss();
                 else
-                    popupWindow.showAsDropDown(ddown1, 50, 0);
+                    popupWindow.showAsDropDown(ddown1, 80, 0);
             }
         });
     }
