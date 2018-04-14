@@ -12,7 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
-
+import android.content.*;
 
 public class MainActivity extends AppCompatActivity {
     CardView bu1,bu2,bu3;
@@ -30,6 +30,13 @@ public class MainActivity extends AppCompatActivity {
         bu3 = (CardView)findViewById(R.id.but3);
         t1 = (EditText) findViewById(R.id.name2);
         t2 = (EditText) findViewById(R.id.pass);
+        bu3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIn = new Intent(MainActivity.this,Main2Activity.class);
+                startActivity(myIn);
+            }
+        });
         bu1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
                 t2.setClickable(true);
             }
         });
+
     }
+
 
 }
