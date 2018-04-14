@@ -78,15 +78,15 @@
 
     <EditText
         android:id="@+id/name2"
-        android:visibility="invisible"
-        android:clickable="false"
         android:layout_width="300dp"
         android:layout_height="52dp"
-        android:layout_alignTop="@+id/but1"
+        android:layout_alignBottom="@+id/but1"
         android:layout_centerHorizontal="true"
-        android:hint="Enter Username !!"
+        android:clickable="false"
         android:drawableLeft="@drawable/user_icon"
-        android:textSize="24sp" />
+        android:hint="Enter Username !!"
+        android:textSize="24sp"
+        android:visibility="invisible" />
 
     <android.support.v7.widget.CardView
         android:id="@+id/but3"
