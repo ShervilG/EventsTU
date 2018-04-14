@@ -31,7 +31,6 @@ TextView t1;
             }
         });
     }
-
     public void sot(View view) {
         Intent in2 = new Intent(Main2Activity.this,MainActivity.class);
         this.finish();
