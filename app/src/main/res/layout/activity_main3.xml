@@ -59,7 +59,7 @@
 Thapar Student Chapter"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="26dp" />
+                android:textSize="26sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,7 +84,7 @@ Thapar Student Chapter"
 Mechatronics And Robotics Society"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="21dp" />
+                android:textSize="21sp" />
 
         </LinearLayout>
 
@@ -110,7 +110,7 @@ Mechatronics And Robotics Society"
                 android:text="Thapar Food Festival"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="28dp" />
+                android:textSize="28sp" />
 
         </LinearLayout>
 
@@ -136,7 +136,7 @@ Mechatronics And Robotics Society"
                 android:text="Frosh Week"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="28dp" />
+                android:textSize="28sp" />
 
         </LinearLayout>
 
@@ -161,7 +161,7 @@ Mechatronics And Robotics Society"
                 android:text="Saturnalia"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="28dp" />
+                android:textSize="28sp" />
 
         </LinearLayout>
 
@@ -186,7 +186,7 @@ Mechatronics And Robotics Society"
                 android:text="Saturnalia"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="28dp" />
+                android:textSize="28sp" />
 
         </LinearLayout>
     </ScrollView>

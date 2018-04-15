@@ -29,8 +29,6 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="120dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"
             android:drawableRight="@drawable/dot"/>
 
     </LinearLayout>
@@ -48,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:weightSum="6"
+            android:weightSum="8"
             tools:context="edmt.dev.androidgridlayout.Main2Activity">
 
 
@@ -60,7 +58,8 @@
                 android:columnCount="2"
                 android:columnOrderPreserved="false"
                 android:padding="2dp"
-                android:rowCount="3">
+                android:rowCount="3"
+                android:rowOrderPreserved="false">
 
                 <!-- Row 1............................. -->
 
