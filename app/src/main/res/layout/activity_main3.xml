@@ -1,0 +1,194 @@
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/buttongradient"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:text="Societies"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/dddown"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/dot"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/s1" />
+
+            <TextView
+                android:id="@+id/s1a"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="OWASP
+Thapar Student Chapter"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="26dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="163dp"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/s2" />
+
+            <TextView
+                android:id="@+id/s2a"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="M.A.R.S.
+Mechatronics And Robotics Society"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="218dp"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/s3" />
+
+            <TextView
+                android:id="@+id/s3a"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Thapar Food Festival"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="113dp"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/s4" />
+
+            <TextView
+                android:id="@+id/s4a"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Frosh Week"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/s5" />
+
+            <TextView
+                android:id="@+id/s5a"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Saturnalia"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/s5" />
+
+            <TextView
+                android:id="@+id/s6a"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Saturnalia"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.widget.RelativeLayout>
