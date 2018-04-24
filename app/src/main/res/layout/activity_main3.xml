@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/buttongradient"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/dddown"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120dp"
+            android:drawableRight="@drawable/dot"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s1" />
+
+                <TextView
+                    android:id="@+id/s1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="OWASP
+Thapar Student Chapter"
+                    android:textAlignment="center"
+
+                    android:layout_toRightOf="@id/s1"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s2" />
+
+                <TextView
+                    android:id="@+id/s2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="M.A.R.S.
+Mechatronics And Robotics Society"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s3" />
+
+                <TextView
+                    android:id="@+id/s3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Thapar Food Festival"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s4" />
+
+                <TextView
+                    android:id="@+id/s4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Frosh Week"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s5" />
+
+                <TextView
+                    android:id="@+id/s5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Saturnalia"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s6" />
+
+                <TextView
+                    android:id="@+id/s6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Saturnalia"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/s7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s1" />
+
+                <TextView
+                    android:id="@+id/s7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="OWASP
+Thapar Student Chapter"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s8"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s2" />
+
+                <TextView
+                    android:id="@+id/s8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="M.A.R.S.
+Mechatronics And Robotics Society"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s3" />
+
+                <TextView
+                    android:id="@+id/s9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Thapar Food Festival"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s4" />
+
+                <TextView
+                    android:id="@+id/s10a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Frosh Week"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s5" />
+
+                <TextView
+                    android:id="@+id/s11a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Saturnalia"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/s12"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/s6" />
+
+                <TextView
+                    android:id="@+id/s12a"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="Saturnalia"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="28sp" />
+
+            </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</android.widget.RelativeLayout>

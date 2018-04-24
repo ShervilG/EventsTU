@@ -40,5 +40,9 @@ TextView t1;
     public void ex(View view) {
         System.exit(0);
     }
-
+    public void hel(View view) {
+        Intent in3 = new Intent(Main2Activity.this,Main3Activity.class);
+        //this.finish();
+        startActivity(in3);
+    }
 }
