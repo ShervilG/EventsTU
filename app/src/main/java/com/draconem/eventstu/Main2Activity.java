@@ -18,7 +18,7 @@ TextView t1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         LayoutInflater layoutInflater= (LayoutInflater)getBaseContext().getSystemService(LAYOUT_INFLATER_SERVICE);
-        final View popupView = layoutInflater.inflate(R.layout.list_popup, null);
+        final View popupView = layoutInflater.inflate(R.layout.list_popup, null );
         final PopupWindow popupWindow = new PopupWindow(popupView,280, ActionBar.LayoutParams.WRAP_CONTENT);
         ddown1 = this.findViewById(R.id.dddown);
         ddown1.setOnClickListener(new View.OnClickListener() {
