@@ -37,7 +37,16 @@
         <activity android:name=".ActivityFive" />
         <activity android:name=".ActivitySix" />
         <activity android:name=".ActivitySeven" />
-        <activity android:name=".ActivityEight"></activity>
+        <activity android:name=".ActivityEight" />
+        <activity android:name=".Society_one" />
+        <activity android:name=".society_two" />
+        <activity android:name=".Society_two" />
+        <activity android:name=".Society_three" />
+        <activity android:name=".Society_four" />
+        <activity android:name=".Society_five" />
+        <activity android:name=".Society_Six" />
+        <activity android:name=".Society_seven" />
+        <activity android:name=".Society_Eight"></activity>
     </application>
 
 </manifest>

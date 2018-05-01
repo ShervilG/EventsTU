@@ -18,4 +18,6 @@
         completions."
     </string>
     <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_society_two">society_two</string>
+    <string name="action_settings">Settings</string>
 </resources>

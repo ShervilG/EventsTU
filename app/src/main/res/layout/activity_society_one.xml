@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Society_one"
+    android:background="@drawable/buttongradient">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_home_black_24dp"
+            android:text="OWASP"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/dddown"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:drawableRight="@drawable/dot"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:src="@drawable/s1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:gravity="center"
+            android:text="OWASP \nThapar Student Chapter"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:gravity="left"
+            android:layout_marginTop="20sp"
+            android:textAlignment="center"
+            android:text="The Open Web Application Security Project (OWASP) Student chapters,Thapar University helps to teach, learn, and inspire application security.It was founded on August 14, 2014."
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:gravity="left"
+            android:layout_marginTop="30sp"
+            android:text="Contact: +91-89238 30555\nMessenger: @owasptsc"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>
