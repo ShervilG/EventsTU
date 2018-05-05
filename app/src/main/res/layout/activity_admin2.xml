@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin2"
+    android:background="@drawable/buttongradient">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="210dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_home_black_24dp"
+                android:text="Welcome Admin"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/dddown"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="120dp"
+                android:drawableRight="@drawable/dot"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:src="@drawable/s4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:text="FROSH"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="25sp"/>
+        
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/backblue"
+            android:text="Add New Poster" />
+
+    </LinearLayout>
+
+</RelativeLayout>

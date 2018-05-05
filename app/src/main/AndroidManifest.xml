@@ -46,7 +46,9 @@
         <activity android:name=".Society_five" />
         <activity android:name=".Society_Six" />
         <activity android:name=".Society_seven" />
-        <activity android:name=".Society_Eight"></activity>
+        <activity android:name=".Society_Eight" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Admin2"></activity>
     </application>
 
 </manifest>
