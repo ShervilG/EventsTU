@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     EditText t1,t2;
     String pass = new String("9929");
     String name = new String("user");
+    String pass1 = new String("12345");
+    String name1 = new String("tff");
+    String pass3 = new String("12345");
+    String name3 = new String("frosh");
     String er = new String("Wrong username/password !");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,8 +45,17 @@ public class MainActivity extends AppCompatActivity {
                     if(t1.getText().toString().equals(name)&&t2.getText().toString().equals(pass)) {
                         Intent myIn = new Intent(MainActivity.this, Main2Activity.class);
                         MainActivity.this.finish();
-                        startActivity(myIn);
-                    }
+                        startActivity(myIn); }
+
+                    else if(t1.getText().toString().equals(name1)&&t2.getText().toString().equals(pass1)) {
+                        Intent myIn = new Intent(MainActivity.this, Admin.class);
+                        MainActivity.this.finish();
+                        startActivity(myIn); }
+
+                    else if(t1.getText().toString().equals(name3)&&t2.getText().toString().equals(pass3)) {
+                        Intent myIn = new Intent(MainActivity.this, Admin2.class);
+                        MainActivity.this.finish();
+                        startActivity(myIn); }
                     else {
                         Toast.makeText(getApplicationContext(),er,Toast.LENGTH_LONG).show();
                     }
